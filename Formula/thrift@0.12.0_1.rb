@@ -8,6 +8,7 @@ class ThriftAT01201 < Formula
   bottle do
     root_url "https://github.com/kraney/homebrew-oldversions/releases/download/thrift@0.12.0_1-0.12.0"
     sha256 cellar: :any, catalina: "9d4acf28676e41d08545cae3c463ba47a1657932055636ba384689b71ea212e7"
+    sha256 cellar: :any, big_sur: "aaa413ef1e58db4335d74adf78e4a3b25d518e7e41d0c6540c077f927d0fc478"
   end
 
   head do
