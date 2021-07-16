@@ -5,6 +5,11 @@ class ThriftAT01201 < Formula
   sha256 "c336099532b765a6815173f62df0ed897528a9d551837d627c1f87fadad90428"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/kraney/homebrew-oldversions/releases/download/thrift@0.12.0_1-0.12.0"
+    sha256 cellar: :any, catalina: "9d4acf28676e41d08545cae3c463ba47a1657932055636ba384689b71ea212e7"
+  end
+
   head do
     url "https://github.com/apache/thrift.git"
 
