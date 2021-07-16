@@ -14,11 +14,6 @@ class ThriftAT01201 < Formula
     depends_on "pkg-config" => :build
   end
 
-  bottle do
-    rebuild 1
-    sha256 cellar: :any, big_sur: "aaa413ef1e58db4335d74adf78e4a3b25d518e7e41d0c6540c077f927d0fc478"
-  end
-
   depends_on "bison" => :build
   depends_on "boost" => [:build, :test]
   depends_on "openssl@1.1"
